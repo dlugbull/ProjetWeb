@@ -1,6 +1,6 @@
 # ProjetWeb
 
-Membres :
-Camille Pizard
-Romain Perrin
-Damien Lugbull
+Membres : <br>
+Camille Pizard <br>
+Romain Perrin <br>
+Damien Lugbull <br>
