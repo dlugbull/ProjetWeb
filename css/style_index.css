@@ -1,3 +1,113 @@
 *{
-  margin:none;
+  margin:0px;
+}
+
+/* nav */
+header{
+  position: fixed;
+  width:100%;
+  z-index:10;
+  background : #000000;
+}
+
+nav{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height : 50px;
+  align-items : center;
+  z-index:10;
+  flex-wrap : wrap;
+}
+
+nav a{
+  text-decoration : none;
+  color : white;
+}
+
+nav a:hover{
+  border-bottom : lightblue 5px solid;
+  transition : 0.3s;
+}
+
+header img{
+  position : absolute;
+  height : 40px;
+  width : 40px;
+  margin-top : 5px;
+  margin-left : 5px;
+  border-radius : 50px;
+}
+
+
+.space{
+  height:50px;
+}
+
+
+/* affichage accueil */
+.accueil{
+  width : 100%;
+  height : 100vh;
+}
+
+.lien_a{
+  position : absolute;
+  display: flex;
+  flex-wrap : wrap;
+  flex-direction : row;
+  justify-content : space-evenly;
+  width : 100%;
+  top : 75%;
+}
+
+.lien_a a{
+  border : 5px solid white;
+  border-radius : 5px;
+  padding : 10px;
+  text-decoration: none;
+  color : white;
+}
+
+.lien_a a:hover{
+  border-color : lightgrey;
+  color : lightgrey;
+  transition : 0.3s;
+}
+
+
+
+/* footer */
+footer{
+  display : flex;
+  flex-direction : row;
+  justify-content : space-evenly;
+  width : 100%;
+  background : #000000;
+  color: white;
+  align-items : center;
+  flex-wrap : wrap;
+}
+
+footer a{
+  text-decoration : none;
+  color: white;
+}
+
+
+iframe{
+  width: 100%;
+  height : 90%;
+  margin-top : 5px;
+}
+
+footer img{
+  height : 30px;
+  width : 30px;
+  border-radius : 5px;
+}
+
+footer img:hover{
+  opacity : 0.5;
+  transition : 0.3s;
 }
