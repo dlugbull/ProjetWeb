@@ -32,14 +32,18 @@ body:before {
 
 /*  HEADER  */
 
+.container{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
 header {
     background-color: var(--bleu-fonce);
     padding: 16px 32px;
     color: white;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    top: 0;
 }
 
 
