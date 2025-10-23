@@ -1,1 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&family=Urbanist:wght@400;500&display=swap');
 
+* {
+    --bleu-clair: #e6f0ff;
+    --bleu-moyen: #3a8dff;
+    --bleu-fonce: #1b3b6f;
+    --gris-clair: #f9f9f9;
+    --gris: #ccc;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+body {
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+    background-color: var(--gris-clair);
+    color: #222;
+}
+
+body:before {
+    content: "";
+    display: block;
+    height: 70px;
+}
+
+/*  HEADER  */
+
+header {
+    background-color: var(--bleu-fonce);
+    padding: 16px 32px;
+    color: white;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+nav img {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 16px;
+    font-weight: 500;
+
+}
+
+nav a:hover {
+    color: var(--bleu-moyen);
+    transition: color 0.3s;
+}
+
+nav input[type="search"] {
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    width: 200px;
+}
