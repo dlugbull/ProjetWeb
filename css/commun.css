@@ -53,6 +53,7 @@ nav {
 
 nav img {
     height: 50px;
+    border-radius: 100%;
 }
 
 nav a {
