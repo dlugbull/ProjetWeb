@@ -85,12 +85,12 @@ nav input[type="search"] {
 
 
 /* footer */
-footer{
+.foot{
   display : flex;
   flex-direction : row;
   justify-content : space-evenly;
   width : 100%;
-  background : #000000;
+  background : var(--bleu-fonce);
   color: white;
   align-items : center;
   flex-wrap : wrap;
@@ -129,4 +129,18 @@ footer img:hover{
     gap : 10px;
     flex-wrap : wrap;
     list-style-type: none;
+}
+
+.centre{
+    text-align : center;
+}
+
+footer a:hover{
+    color: var(--bleu-moyen);
+    transition: color 0.3s;
+}
+
+.bottom{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
