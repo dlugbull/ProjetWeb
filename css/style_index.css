@@ -59,6 +59,6 @@ h1{
   font-size: 30px;
 }
 
-section{
+.corps{
   background: var(--bleu-fonce);
 }
