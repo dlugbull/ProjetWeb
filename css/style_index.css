@@ -5,25 +5,57 @@
 }
 
 .lien_a{
-  position : absolute;
-  display: flex;
-  flex-wrap : wrap;
-  flex-direction : row;
-  justify-content : space-evenly;
-  width : 100%;
-  top : 75%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .lien_a a{
-  border : 5px solid white;
-  border-radius : 5px;
-  padding : 10px;
+  position: absolute;
+  height: 100%;
   text-decoration: none;
   color : white;
+  text-align: center;
+  align-content: center;
+  opacity: 0;
 }
 
 .lien_a a:hover{
-  border-color : lightgrey;
-  color : lightgrey;
-  transition : 0.3s;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.40);
+  font-size: 32px;
+  transition: 0.3s;
+}
+
+.left{
+  left:0px;
+  width: 50%;
+}
+
+.right{
+  right:0px;
+  width:50%;
+}
+
+
+.description{
+  width: 100%;
+  position: absolute;
+  top: 25%;
+  align-content: center;
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+
+h1{
+  font-size: 50px;
+}
+
+.description span{
+  font-size: 30px;
+}
+
+section{
+  background: var(--bleu-fonce);
 }
