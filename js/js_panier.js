@@ -33,13 +33,13 @@ function addProduct() {
   newItem.dataset.price = price;
 
   newItem.innerHTML = `
-    <img src="produit_par_defaut.jpg" alt="${name}">
     <div class="item-details">
       <h2>${name}</h2>
       <label>Quantité :</label>
       <input type="number" value="${quantity}" min="1">
       <p>Prix unitaire : ${price}€</p>
       <button class="remove-btn">Supprimer</button>
+      <img src="produit_par_defaut.jpg" alt="${name}">
     </div>
   `;
 
