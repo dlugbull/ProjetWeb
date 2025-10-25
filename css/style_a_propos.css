@@ -1,1 +1,195 @@
 
+main {
+    padding: 20px;
+    background-color: var(--blanc);
+    border-radius: 10px;    
+}
+
+/* ======== STRUCTURE GÉNÉRALE ======== */
+section {
+    display: inline-block;
+    background-color: var(--white);
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ======== TITRES ======== */
+h1{
+    text-align: center;
+    color: var(--bleu-fonce);
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    text-align: center;
+    color: var(--bleu-fonce);
+}
+
+/* ======== FONDATEURS ======== */
+.founders {
+    background-color: var(--bleu-clair);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.founders h4 {
+    margin-bottom: 5px;
+    color: var(--bleu-fonce);
+}
+
+.founders p {
+    margin: 0;
+    color: var(--black);
+}
+
+/* ======== CHIFFRES ======== */
+.chiffres {
+    background-color: var(--bleu-clair);
+    padding: 20px;
+    border-radius: 10px;
+    list-style-type: square;
+}
+
+.chiffres li {
+    margin: 10px 0;
+    color: var(--black);
+    transition: color 0.3s;
+}
+
+.chiffres li:hover {
+    color: var(--secondary);
+}
+
+/* ======== SECTION 3 ======== */
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bleu-clair);
+    margin: 25px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section3 input,
+.section3 textarea {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--bleu-fonce);
+    box-sizing: border-box;
+}
+
+/* ======== MASC / MISSION / HISTOIRE ======== */
+.masc, .mission, .histoire {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.masc p, .mission p, .histoire p {
+    max-width: 600px;
+    text-align: center;
+    color: var(--black);
+}
+
+/* ======== BOUTONS ======== */
+button {
+    background-color: var(--bleu-fonce);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--secondary);
+}
+
+/* ======== CHAT ======== */
+.chat {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* ======== MEDIA QUERIES ======== */
+
+/* --- Petits écrans (mobiles) --- */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    .founders,
+    .section3 {
+        margin: 10px;
+        padding: 15px;
+    }
+
+    .chiffres {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+    }
+}
+
+/* --- Tablettes --- */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .founders,
+    .section3 {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .chiffres {
+        font-size: 1.1em;
+    }
+}
+
+/* --- Grands écrans (desktop) --- */
+@media (min-width: 1025px) {
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .founders {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .section3 {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .section3 input,
+    .section3 textarea {
+        max-width: 400px;
+    }
+}
