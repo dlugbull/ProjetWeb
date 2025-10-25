@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A propos</title>
-    <link rel="stylesheet" href="../css/commun.css">
-    <!--<link rel="stylesheet" href="css/style_index.css">-->
+    <link rel="stylesheet" href="../csscommun.css">
+    <link rel="stylesheet" href="../css/style_a_propos.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=info" />
     <link rel="icon" type="image/png" href="../images/icone.png">
 </head>
@@ -27,9 +27,11 @@
         </header>
     </div>
 <body>
+    <main>
     
     <h1>A propos de nous et de qui nous sommes</h1>
-
+    
+    <div class="histoire">
     <h2> Notre histoire </h2>
     <p>Il était une fois, dans un entrepôt numérique pas si lointain, une idée folle :
     et si on vendait… des chars ? <br>
@@ -38,7 +40,38 @@
     C’est ainsi qu’est née Bloop!, la première(et probablement la seule) entreprise de e-commerce 
     où tu peux acheter un char d’assaut, un char à voile, un charme discret, un charbon actif, ou même un charabia complet, 
     le tout livré en 24h chrono (sauf si ton char est coincé dans le trafic).</p>
+    </div>
+   
+   
+    <div class="mission">
+    <h2>Notre mission</h2>
+    <p>Chez Bloop, notre mission est simple : rendre le monde meilleur, un char à la fois. 
+    Nous croyons fermement que chaque char, qu'il soit grand ou petit, a le pouvoir de transformer la vie de nos clients. 
+    Que tu cherches à conquérir de nouveaux territoires avec un char d'assaut, 
+    à naviguer sur les mers avec un char à voile, ou simplement à ajouter une touche de charme à ta vie quotidienne,
+    nous sommes là pour t'aider à réaliser tes rêves les plus fous.
+    Et si tu ne trouves pas ton bonheur, R te livrera un chariot plein de charbons ardents pour te réchauffer le cœur.</p>
+    </div>
+   
+    <h2>Les fondateurs</h2>
+    <div class="founders">
+        <h4>LUGBULL Damien</h4>
+        <p>Createur de notre page d'acceuil et bras droit de notre mascotte (et fondateur) R</p>
+    </div>
+    <div class="founders">
+        <h4>PERRIN Romain</h4>
+        <p> Createur de notre panier et assistant de notre mascotte (et fondateur) R</p>
+    </div>
+    <div class ="founders">    
+        <h4>PIZARD Camille</h4>
+        <p>Creatrice de la page à propos et secrétaire de notre mascotte (et fondatrice) R</p>
+    </div>
+    <div class="founders">       
+        <h4>R</h4>
+        <p>Fondateur et mascotte de Bloop, char de son état</p>
+    </div>
 
+    <div class="masc">
     <h2>Notre mascotte</h2>
     <p>
     Notre fondateur félin, R, est un chat qui a toujours rêvé d’être un char.
@@ -50,17 +83,12 @@
     Le charisme (qu’il prétend avoir en quantité industrielle), <br>
     Et les chariots de livraison, qu’il prend pour des cousins éloignés. <br>
     </p>
-
-    <h2>Notre mission</h2>
-    <p>Chez Bloop, notre mission est simple : rendre le monde meilleur, un char à la fois. 
-    Nous croyons fermement que chaque char, qu'il soit grand ou petit, a le pouvoir de transformer la vie de nos clients. 
-    Que tu cherches à conquérir de nouveaux territoires avec un char d'assaut, 
-    à naviguer sur les mers avec un char à voile, ou simplement à ajouter une touche de charme à ta vie quotidienne,
-    nous sommes là pour t'aider à réaliser tes rêves les plus fous.
-    Et si tu ne trouves pas ton bonheur, R te livrera un chariot plein de charbons ardents pour te réchauffer le cœur.</p>
+    </div>
+    <img class="chat" src="../images/chat.png" alt="Notre mascotte R">
+    
 
     <h2> Nos chiffres </h2>
-    <ul>
+    <ul class="chiffres">
         <li>Plus de 10 000 chars vendus (et toujours pas un seul accident de char)</li>
         <li>Un taux de satisfaction client de 99,9% (le 0,1% restant est probablement dû à des chats jaloux)</li>
         <li>Des livraisons dans plus de 50 pays (y compris la Lune, mais seulement pour les chars lunaires)</li>
@@ -89,20 +117,34 @@
             <button>Envoyer</button>
         </section>
     
-
-    <footer>
-        <div>
-            Nous suivre<br>
+    </main>
+    <footer class="foot">
+        <div class="footer-container">
+            Nos pages<br>
             <ul>
-                <li><a href="https://youtu.be/dQw4w9WgXcQ?si=LHXdapHKUC4K435o"><img src="../images/youtube.jpg"></a></li>
-                <li><a href="https://youtu.be/dQw4w9WgXcQ?si=LHXdapHKUC4K435o"><img src="../images/instagram.jpg"></a></li>
-                <li><a href="https://youtu.be/dQw4w9WgXcQ?si=LHXdapHKUC4K435o"><img src="../images/x.png"></a></li>
-                <li><a href="https://youtu.be/dQw4w9WgXcQ?si=LHXdapHKUC4K435o"><img src="../images/tiktok.jpg"></a></li>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="../html/boutique.html">Boutique</a></li>
+                <li><a href="../html/panier.html">Panier</a></li>
+                <li><a href="">A propos</a></li>
             </ul>
         </div>
-        <div>
+        <div class="footer-container">
+            <div class="centre">
+                Nous suivre<br><br>
+            </div>
+            <div class="reseaux">
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=LHXdapHKUC4K435o"><img src="../images/youtube.jpg" alt="Youtube"></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=LHXdapHKUC4K435o"><img src="../images/instagram.jpg" alt="Instagram"></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=LHXdapHKUC4K435o"><img src="../images/x.png" alt="X"></a>
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=LHXdapHKUC4K435o"><img src="../images/tiktok.jpg" alt="TikTok"></a>
+            </div>
+        </div>
+        <div class="footer-container">
             <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=6.837615824965689%2C47.64199520778036%2C6.841625727442953%2C47.643372251418334&amp;layer=mapnik&amp;marker=47.64268373413669%2C6.839620776204356"></iframe>
         </div>
     </footer>
+    <div class="foot bottom">
+        Camille Pizard
+    </div>
 </body> 
 </html>
