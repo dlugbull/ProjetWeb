@@ -1,5 +1,5 @@
 # ProjetWeb
-## Prjet de groupe à l'IUT Nord Franche-Comté
+## Projet de groupe à l'IUT Nord Franche-Comté
 <a href="https://dlugbull.github.io/ProjetWeb/">lien du site</a>
 
 Membres : <br>
